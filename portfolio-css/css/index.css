@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/498478219/pt/foto/c%C3%A9u-de-estrelas-%C3%A0-noite.jpg?s=612x612&w=0&k=20&c=0VRrZurbq64yASyoDPoHs8_EaIE6Sc972dRybkQBZ1E=);
+    color: rgb(255, 255, 255);
+    
+     
+    text-align: center;
+    font-size: 20px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style:normal;
+    
+    
+    
+}  
+
+
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 200px;
+    font-style:
+}
+h2 {
+    color: darkblue;
+    font-size: 18px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400px;
+    font-style:normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   text-align: center;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    margin: 5px 0;
+    font-size: 12px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400px;
+    font-style:normal;
+   color: darkblue;
+    text-align: center;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    cursor:all-scroll;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    width: 150px;
+}
+
+
+
+
+.menuNav {
+    height: 150px;
+    width: 300px;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  text-align: center;
+    color: rgb(24, 4, 4);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 200px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.menuNav a {
+    text-decoration:darkblue;
+    color:white;
+    font-size: 20px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 200px;
+    padding: 10px 20px;
+    border-radius: 400px;
+    transition: background-color 0.3s ease;
+}
+.menuNav a:hover {
+    background-color: darkblue;
+    color: black;
+}
+.menuNav a:active {
+    background-color: rgb(0, 0, 0);
+    color: darkblue;
+}
+.menuNav a:focus {
+    background-color: darkblue;
+    color: darkblue;
+} 
+
+div {
+    
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+
+
+
+
+
+
+img {
+    width: 200px;
+    height: ;
+    border: 2px solid rgb(0, 0, 0);    
+    border-radius: 50%;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 8px darkblue;
+
+}
+
+
+textarea {
+    
+    height: 50px;
+    padding: 10px;
+    border-style: 5px;
+    text-shadow: 0 0 5px darkblue;
+    color: darkblue;
+    background-color:white;
+    
+    
+    
+}
+
